@@ -52,7 +52,7 @@ body {
   margin-left: 10px;
 }
 .content-tick {
-  width: fit-content;
+  width: 100%;
 }
 .checkbox {
   cursor: pointer;
