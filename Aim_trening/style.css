@@ -1,0 +1,25 @@
+.btn{
+  background-color: rgb(214, 184, 10);
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+}
+.non{
+  display: none;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+}
+.container{
+  border: 1px solid rgb(214, 184, 10);
+  height: 80vh;
+  width: 40%;
+  background-color: rgb(46, 35, 59);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
