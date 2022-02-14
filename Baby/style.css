@@ -16,8 +16,8 @@
 .petals:after {
   width: 10em;
   height: 10em;
-  background: lightcyan;
-  box-shadow: 0 0 0px 20px skyblue inset;
+  background: pink;
+  box-shadow: 0 0 0px 20px red inset;
   border-radius: 50% 50% 50% 0;
 }
 
