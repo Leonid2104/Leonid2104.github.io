@@ -1,0 +1,62 @@
+.petals {
+  position: relative;
+  margin: 4em 16em;
+}
+
+.petals:before,
+.petals:after,
+.wrapper:after {
+  position: absolute;
+  content: "";
+  display: block;
+}
+
+.petals,
+.petals:before,
+.petals:after {
+  width: 10em;
+  height: 10em;
+  background: lightcyan;
+  box-shadow: 0 0 0px 20px skyblue inset;
+  border-radius: 50% 50% 50% 0;
+}
+
+.petals:before {
+  transform: rotate(-120deg);
+  transform-origin: -2em 12em;
+}
+
+.petals:after {
+  transform: rotate(120deg);
+  transform-origin: -2em 12em;
+}
+
+.petals:nth-child(2) {
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+  transform-origin: -2em 10em;
+}
+
+.wrapper {
+  position: relative;
+  margin: 8em 4em;
+}
+
+.wrapper:after {
+  top: 8em;
+  left: 10em;
+  width: 8em;
+  height: 8em;
+  border-radius: 50%;
+  background: yellow;
+  box-shadow: 0 0 0px 20px gold inset;
+}
+.container{
+  padding-left: 10%;
+}
+body{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(60, 211, 40);
+}
